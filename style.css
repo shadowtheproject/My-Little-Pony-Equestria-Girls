@@ -195,20 +195,18 @@ h5 {
 }
 
 
-.send  {
-  position: relative;
-  border-radius:25px;
-  background:hwb(331 8% 11%);
-  color:white;
-  font-weight:600;
-  border:none;
-  padding:5px 5px;
-  padding-left:15px;
-  height:50px;
-  width:150px;
-  right: -15px;
-  text-align:start;
-  margin-top: 10px;
+.send {
+    position: relative;
+    border-radius: 25px;
+    background: hwb(331 8% 11%);
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 5px 5px 5px 15px;
+    height: 50px;
+    width: 150px;
+    text-align: start;
+    margin-top: 10px;
 }
 
 
@@ -232,13 +230,10 @@ h5 {
 
 
 .send-message-png {
-  position:absolute;
-  width:200px;
-  height:300px;
-  bottom:0;
-  right:0;
-  top: 528px;
-  transform:translateY(1px);
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin: 30px auto 0;
 }
 
 
