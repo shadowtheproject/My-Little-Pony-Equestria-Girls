@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link href="style.css"  rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Little Pony:Equestria Girls</title>
+</head>
+<body>
+
+<header>
+<div class="photos">
+
+    <img class="logo" src="images/logo.png" alt="logo">
+ <button class="menu-btn">
+    <span></span>
+    <span></span>
+    <span></span>  
+  </button>
+  <div class="overlay"></div>
+    <div class="menu">
+      <img class="menu-png" src="images/logo.png">
+      <span class="close">×</span>
+      <div class="menu-nav">
+      <a class="menu-a" href="index.html"><img src="icons/menu-home.png">Главная</a>
+      <a class="menu-a" href="videos.html"><img src="icons/menu-video.png">Видео</a>
+      <a class="menu-a" href="music.html"><img src="icons/music.png">Музыки</a>
+      <a class="menu-a" href="about.html"><img src="icons/menu-info.png">О сериале</a>
+      <a class="menu-a" href="contact.html"><img src="icons/menu-contact.png">Связатся</a>
+    
+      <div class="liniya"></div>
+      <img class="friendship-picture" src="images/drujba-eto-chudo.png"  loading="lazy">
+    </div>
+    </div>
+    <img class="background-image" src="images/background.png" alt="background-photo">
+    <img class="friends" src="images/friends.png">
+</div>
+</header>
+  
+  <main>
+    <h1>Моя маленькая пони:</h1>
+     <h1 class="title"> Дружба—это чудо</h1>
+    <h5 class="sparkle">История о настоящей дружбе,магии<br/>
+      и приключении в мире Эквестрии!</h5>
+    <div class="buttons-main">
+    <a href="movie.html" class="watch">Смотреть</a>
+    <button class="characters-button">Персонажи</button>
+  </div>
+    <h2 class="main-characters">✦ Познакомся с подругами ✦</h2>
+    <div class="cards">
+      <div class="card">
+      <img class="background" src="cards/twilight-sparkle-background.jpg">
+        <img class="characters" src="images/twilight-sparkle-card.png">
+        <h4 id="iskarka" class="names">Twilight Sparkle</h4>
+      </div>
+        <div class="card">
+      <img class="background" src="cards/pinkie-pie-background.jpg">
+          <img class="characters" src="images/pinkie-pie-card.png">
+          <h4 id="pinkiepie" class="names">Pinkie Pie</h4>
+        </div>
+          <div class="card">
+      <img class="background" src="cards/rainbow-dash-background.jpg">
+            <img class="characters" src="images/rainbow-dash-card.png">
+            <h4 id="rainbowdash" class="names">Rainbow Dash</h4>
+          </div>
+            <div class="card">
+      <img class="background" src="cards/flutter-shy-background.jpg">
+              <img class="characters" src="images/flutter-shy-card.png">
+              <h4 id="fluttershy" class="names">Flutter Shy</h4>
+            </div>
+              <div class="card">
+      <img class="background" src="cards/rarity-background.jpg">
+                <img class="characters" src="images/rarity-card.png">
+                <h4 id="rarity" class="names">Rarity</h4>
+              </div>
+                <div class="card">
+      <img class="background" src="cards/apple-jack-background.png">
+                  <img class="characters" src="images/apple-jack.png">
+                  <h4 id="applejack" class="names">Apple Jack</h4>
+                  </div>
+                  <div class="card">
+      <img class="background" src="cards/sunset-background.jpg">
+                    <img class="characters" src="images/sunset-card.png">
+                    <h4 id="sunset" class="names">Sunset</h4>
+                  </div>
+                    <div class="card">
+      <img class="background" src="cards/spike-background.jpg">
+                      <img class="characters" src="images/real-spike.png">
+                      <h4 id="spike" class="names">Spike</h4>
+                    </div>
+    </div>
+  </main>
+  <h2 class="last-episodes">✦ Последние серии ✦</h2>
+  <div class="video-card">
+  <div class="video-container">
+    <video id="myVideo"  width="800"
+      poster="images/poster.jpg">
+      <source src="videos/first-video.mp4"
+        type="video/mp4">
+    </video>
+
+    <button id="playButton" class="play-button" onclick="playVideo()">
+      ▶
+      </button>
+    </div>
+    <div class="video-info">
+    <h4 class="video-title">«Костюмная загадка»</h4>
+      <div class="video-details">
+        My Website &nbsp; • &nbsp; 2026 - Present
+      </div>
+      
+      <p class="video-description"> Fluttershy не знает, что надеть, и её подруги помогают ей определиться с костюмом.</p>
+      </div>
+</div>
+      <div class="video-card">
+  <div class="video-container">
+    <video id="myVideo" poster="images/poster.jpg">
+      <source src="videos/second-video.mp4" type="video/mp4">
+    </video>
+
+    <button id="playButton" class="play-button">
+      ▶
+    </button>
+  </div>
+
+  <div class="video-info">
+    <h4 class="video-title">«Подари мне носок»</h4>
+
+    <div class="video-details">
+      My Website &nbsp; • &nbsp; 2026 - Present
+    </div>
+
+    <p class="video-description">
+       Перед важным футбольным матчем Rainbow Dash теряет свой счастливый носок и боится, что без него команда проиграет. Друзья пытаются помочь ей найти решение.
+    </p>
+  </div>
+      </div>
+  <div class="video-card">
+  <div class="video-container">
+    <video id="myVideo" poster="images/poster.jpg">
+      <source src="videos/third-video.mp4" type="video/mp4">
+    </video>
+
+    <button id="playButton" class="play-button">
+      ▶
+    </button>
+  </div>
+
+  <div class="video-info">
+    <h4 class="video-title">«Топпинги на выбор»</h4>
+
+    <div class="video-details">
+      My Website &nbsp; • &nbsp; 2026 - Present
+    </div>
+
+    <p class="video-description">
+      🍦
+Пинки Пай становится тысячным посетителем магазина замороженного йогурта и получает бесплатный топпинг. Но вариантов оказывается так много, что Пинки никак не может выбрать. Она просит подруг помочь ей, а Флаттершай в это время присматривает за животными, которых нельзя пускать в магазин.
+    </p>
+  </div>
+</div>
+  <footer>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="characters.html">Персонажи</a>
+      <a href="videos.html">Видео</a>
+      <a href="gallery.html">Фотки</a>
+      <a href="about.html">О сериале</a>
+      <a href="contact.html">Связатся</a>
+      <a href="music.html">Музыка</a>
+      <img src="signs/flutter-shy-sign.png">
+      
+      <div class="social-links">
+    
+    <a href="https://www.instagram.com/hl_blyw?igsi=MXI2NXN5Mm5mbDRxbA==" target="_blank">
+        <img src="icons/instagram.png" alt="Instagram">
+    </a>
+
+    <a href="https://vm.tiktok.com/ZS9BTXtCvSU7s-lcWrp/" target="_blank">
+        <img src="icons/tiktok.png" alt="TikTok">
+    </a>
+    
+</div>
+      
+      <p>® My Little Pony:Equestria Girls</p>
+  </nav>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
