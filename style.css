@@ -116,28 +116,25 @@ h5 {
 }
 
 .contact-title-title {
-    position:relative;
+    position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 4px;
     font-family: "Fredoka";
     font-weight: 600;
-    color:var(--main-color);
+    color: var(--main-color);
     font-size: 25px;
-    left:12px;
-    margin: 0;
-    transform:translateY(120px);
+    margin: 20px 0 5px;
 }
 
 
-.contact-title-second  {
-  position:absolute;
-  text-align: center;
-  font-size:16px;
-  color:hwb(268 2% 70%);
-  transform:translateY(155px);
-  margin-left: 10px;
-  margin-right:10px;
+.contact-title-second {
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    color: hwb(268 2% 70%);
+    margin: 0 10px 20px;
 }
 
 
@@ -150,11 +147,12 @@ h5 {
 }
 
 
-.message-contact  {
-  display:grid;
-  grid-template-rows:1;
-  gap:20px;
-  transform:translateY(200px)
+.message-contact {
+    display: grid;
+    gap: 20px;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto 0;
 }
 
 .name  {
